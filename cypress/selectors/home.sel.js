@@ -1,10 +1,8 @@
 module.exports = {
-    yourFeedTab: '[ng-class*=feed]',
-    globalFeedTab: '[ng-class*=all]',
-    articles: 'article-list [ng-repeat*="ctrl.list"] .article-preview',
-    sidebar: '.sidebar',
-    sidebarTags: '.sidebar .tag-list .tag-default',
-    loadingTagsText: '.tag-list + div',
-    firstFavoriteButton: 'article-list > article-preview:nth-child(1) button',
-    readMoreLink: 'article-list > article-preview:nth-child(1) .preview-link'
+    
+    ACEPTAR_CONTINUAR_BUTTON_ELEM: '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelectionWrapper',
+    SECURITAS_DIRECT_LOGO_ELEM: '#block-securitasdirect-branding > a > img', 
+    LOGO_CLASS: 'Securitas Direct',
+    AREA_CLIENT_BUTTON_ELEM: '#block-topmenu > .clearfix > :nth-child(2)'
+
 }
