@@ -21,7 +21,7 @@ describe('Login', () => {
              cy.wait(1000)
              login_access.click_on_area_client_button()
              cy.origin("https://customers.securitasdirect.es", () => {
-                cy.visit("/owa-static/login")
+                cy.visit("/owa-static/login") 
              })
         
             // cy.on("window:confirm", (t) => {
